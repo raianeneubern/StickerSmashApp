@@ -1,0 +1,7 @@
+git config --global user.name raianeneubern
+git config --global user.email raianeneubern@gmail.com
+
+
+npx create-expo-app@latest StickerSmash
+
+cd StickerSmash
