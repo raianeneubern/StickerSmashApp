@@ -1,7 +1,13 @@
 git config --global user.name raianeneubern
 git config --global user.email raianeneubern@gmail.com
 
+npm i
 
 npx create-expo-app@latest StickerSmash
 
 cd StickerSmash
+
+rodar:
+npx  expo start --localhost --android
+
+npm run reset-project
