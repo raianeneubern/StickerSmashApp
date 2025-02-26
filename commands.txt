@@ -1,13 +1,21 @@
 git config --global user.name raianeneubern
 git config --global user.email raianeneubern@gmail.com
 
-npm i
+ao baixar o projeto do Github
 
-npx create-expo-app@latest StickerSmash
-
+Entrar na pasta
 cd StickerSmash
+
+dar
+npm i
+ 
+Criar o projeto 1 vez
+npx create-expo-app@latest StickerSmash
 
 rodar:
 npx  expo start --localhost --android
+npx expo start --web
 
 npm run reset-project
+
+
