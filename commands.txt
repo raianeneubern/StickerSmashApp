@@ -18,4 +18,6 @@ npx expo start --web
 
 npm run reset-project
 
+npx expo install-image
+
 
