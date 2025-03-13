@@ -21,3 +21,5 @@ npm run reset-project
 npx expo install-image
 
 
+npx expo install expo-image-picker
+
