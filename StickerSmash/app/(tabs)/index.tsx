@@ -22,7 +22,7 @@ export default function Index() {
 
   }
 
-  const  = ( ) => {
+   const onSaveImageAsync = ( ) => {
     
   }
 
@@ -52,7 +52,7 @@ export default function Index() {
         <View style={styles.optionsRow}>
         <IconButton icon="refresh" label="Resetar" onPress={onReset} />
         <CircleButton onPress={onAddSticker} />
-        <IconButton icon="save-alt" label="Salvar" />
+        <IconButton icon="save-alt" label="Salvar" onPress={onSaveImageAsync}/>
         </View>
       </View>
     ) : (
@@ -83,5 +83,13 @@ const styles = StyleSheet.create({
     flex: 1/3,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  optionsContainer: {
+    position: 'absolute',
+    bottom: 80,
+  },
+  optionsRow: {
+    alignItems: 'center',
+    flexDirection: 'row',
   }
 })
