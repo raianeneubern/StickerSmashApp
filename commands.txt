@@ -9,7 +9,7 @@ cd StickerSmash
 dar
 npm i
 
-installar a instenção esp7 +
+installar a instenção es7 +React
  
 Criar o projeto 1 vez
 npx create-expo-app@latest StickerSmash
