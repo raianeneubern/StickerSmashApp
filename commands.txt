@@ -26,3 +26,5 @@ npx expo install-image
 npx expo install expo-image-picker
 
 npx expo install react-native-view-shot expo-media-library
+
+npm install dom-to-image
