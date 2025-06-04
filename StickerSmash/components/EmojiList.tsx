@@ -1,13 +1,13 @@
-import { StyleSheet, FlatList, Platform, Pressable} from 'react-native'
 import { useState } from 'react'
+import { StyleSheet, FlatList, Platform, Pressable } from 'react-native'
 import { Image, type ImageSource } from 'expo-image'
 
-type Props = {
-    onSelect: (image: ImageSource ) => void;
+type Props  = {
+    onSelect: (image: ImageSource) => void;
     onCloseModal: () => void;
 }
 
-export default function EmojiList({onSelect, onCloseModal}: Props) {
+export default function EmojiList({ onSelect, onCloseModal }: Props) {
   const [emoji] = useState<ImageSource[]>([
     require('../assets/images/emoji1.png'),
     require('../assets/images/emoji2.png'),
@@ -35,9 +35,9 @@ export default function EmojiList({onSelect, onCloseModal}: Props) {
 }
 
 const styles = StyleSheet.create({
-  listContainer:{
-    borderTopRightRadius: 10,
+  listContainer: {
     borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
     paddingHorizontal: 20,
     flexDirection: 'row',
     alignItems: 'center',
