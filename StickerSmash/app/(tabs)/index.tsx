@@ -14,7 +14,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import * as MediaLibrary from 'expo-media-library';
 import domtoimage from 'dom-to-image';
 
-const PlaceholderImage = require('@/assets/images/background-image.png');
+const PlaceholderImage = require('@/assets/images/background-image.jpg');
 
 export default function Index() {
   const [status, requestPermission] = MediaLibrary.usePermissions();
@@ -125,7 +125,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#25292e',
+    backgroundColor: '#417574',
     alignItems: "center",
   },
   imageContainer: {
